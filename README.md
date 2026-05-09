@@ -7,13 +7,10 @@ This repository is intentionally workspace-first: the root owns shared tooling,
 documentation, and agent conventions, while runnable code will live under
 `packages/` as projects mature.
 
-## Repository Index
+## Documentation
 
-- [Project philosophy](docs/philosophy.md)
-- [Monorepo structure](docs/monorepo-structure.md)
-- [Development setup](docs/development-setup.md)
-- [AI agent workflow](docs/ai-agent-workflow.md)
-- [Roadmap](docs/roadmap.md)
+See [docs/overview.md](docs/overview.md) for the project's philosophy,
+monorepo structure, development setup, AI agent workflow, and roadmap.
 
 ## Quick Start
 
