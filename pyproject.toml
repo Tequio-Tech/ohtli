@@ -12,6 +12,8 @@ dependencies = []
 
 [dependency-groups]
 dev = [
+    "flake8>=7.3.0",
+    "flake8-cognitive-complexity>=0.1.0",
     "ruff>=0.13.0",
 ]
 
@@ -26,4 +28,7 @@ line-length = 100
 target-version = "py314"
 
 [tool.ruff.lint]
-select = ["E", "F", "I", "UP", "B"]
+select = ["E", "F", "I", "UP", "B", "C90"]
+
+[tool.ruff.lint.mccabe]
+max-complexity = 10

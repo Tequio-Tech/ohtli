@@ -23,6 +23,7 @@ Before handing off changes that touch Python or repo tooling, run:
 uv sync --dev
 uv run ruff check .
 uv run ruff format --check .
+uv run flake8 .
 ```
 
 If a command cannot run in the current environment, report the exact failure and
