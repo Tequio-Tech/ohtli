@@ -1,0 +1,5 @@
+# Project-local Codex configuration.
+# Keep durable shared guidance in ../AGENTS.md.
+
+[project]
+instructions = "../AGENTS.md"

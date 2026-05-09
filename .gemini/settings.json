@@ -1,0 +1,7 @@
+{
+  "approvalMode": "ask",
+  "skills": {
+    "enabled": true,
+    "path": ".gemini/skills"
+  }
+}
