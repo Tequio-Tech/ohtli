@@ -1,0 +1,9 @@
+[flake8]
+select = CCR
+max-cognitive-complexity = 7
+exclude =
+    .git,
+    .venv,
+    __pycache__,
+    build,
+    dist
