@@ -12,9 +12,9 @@ point unless the project direction changes explicitly.
   until the publishing approach is chosen.
 - Keep `README.md` concise. Put durable explanations in `docs/`.
 - Treat `.agents/skills/` as the canonical shared skills directory.
-- Keep tool-specific instruction files as symlinks to this file when possible to
+- Keep tool-specific instruction files as symlinks to this file when possible to`
   avoid drift.
-
+- never modify CLAUDE.md directly (is a sym file)
 ## Verification
 
 Before handing off changes that touch Python or repo tooling, run:

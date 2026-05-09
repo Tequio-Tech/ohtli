@@ -8,7 +8,12 @@ license = "Apache-2.0"
 authors = [
     { name = "tequio.tech" },
 ]
-dependencies = []
+dependencies = [
+    "marimo>=0.23.5",
+    "matplotlib>=3.10.9",
+    "numpy>=2.4.4",
+    "pandas>=3.0.2",
+]
 
 [dependency-groups]
 dev = [
