@@ -222,3 +222,7 @@ __marimo__/
 
 # Scratch
 tmp/
+
+# Quarto
+blog/_site/
+blog/.quarto/
