@@ -1,0 +1,13 @@
+---
+title: ""
+pagetitle: "Tequio Tech"
+page-layout: full
+---
+
+::: {.tt-hero}
+# Tequio Tech
+
+Tequio Tech builds healthcare technology rooted in community labor — the
+Nahuatl tradition of *tequio*, work done together for the common good. We
+focus on voice care, EMR integration, and underserved clinical landscapes.
+:::

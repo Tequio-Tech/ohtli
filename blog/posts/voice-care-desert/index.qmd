@@ -1,0 +1,10 @@
+---
+title: "The Healthcare Landscape and Its Voice Care Desert"
+description: "Why voice care is structurally underserved."
+author: "TODO: author"
+date: "2026-03-01"
+---
+
+Voice care sits in the gap between ENT, speech pathology, and behavioral
+health. The result is a coverage desert that affects performers, educators,
+and clinicians alike.

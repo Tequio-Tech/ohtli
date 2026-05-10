@@ -1,0 +1,31 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Tequio Tech"
+  site-url: "https://tequio.tech"
+  description: "Voice care, healthcare technology, and the work of community."
+  navbar:
+    background: light
+    title: "TEQUIOTECH"
+    left:
+      - text: "Blog"
+        href: blog.qmd
+      - text: "About"
+        href: about.qmd
+    tools:
+      - icon: linkedin
+        href: "#"
+        text: LinkedIn
+
+format:
+  html:
+    theme:
+      light: [cosmo, theme.scss]
+      dark: [darkly, theme.scss]
+    respect-user-color-scheme: true
+    toc: false
+    page-layout: full
+    grid:
+      body-width: 1200px
