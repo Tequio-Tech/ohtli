@@ -22,19 +22,8 @@ uv run ruff format --check .
 
 ## Agent Setup
 
-Shared agent instructions live in [AGENTS.md](AGENTS.md). Tool-specific
-entrypoints should point back to that file so Codex, Gemini CLI, and Claude Code
-receive the same repo guidance:
+Shared agent instructions live in [AGENTS.md](AGENTS.md). 
 
-- [CLAUDE.md](CLAUDE.md) -> `AGENTS.md`
-- [GEMINI.md](GEMINI.md) -> `AGENTS.md`
-
-Shared skills live under `.agents/skills/`. Tool-specific skill directories
-should symlink to that shared directory when the tool supports project skills:
-
-- `.claude/skills` -> `../.agents/skills`
-- `.gemini/skills` -> `../.agents/skills`
-
-Keep `.codex/`, `.claude/`, and `.gemini/` limited to tool-specific
-configuration. Keep cross-tool conventions in this README and operational agent
-rules in [AGENTS.md](AGENTS.md).
+Keep `.codex/`, `.claude/`, and `.gemini/` limited to tool-specific configuration. 
+Cross-tool conventions and skill setups are documented in [docs/overview.md](docs/overview.md), 
+while operational agent rules live in [AGENTS.md](AGENTS.md).
