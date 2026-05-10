@@ -32,10 +32,10 @@ Top-level layout:
 - `.codex/`, `.claude/`, `.gemini/`: project-level tool configuration.
 - `docs/`: durable documentation.
 - `packages/`: future workspace packages.
-- `blog/`: future local writing workspace.
+- `blog/`: Quarto site for tequio.tech writing — see [blog.md](blog.md).
 
-`packages/` and `blog/` intentionally start empty. Add files only when there is
-real package or publishing work to commit.
+`packages/` intentionally starts empty. Add files only when there is real
+package work to commit.
 
 ## Development Setup
 
@@ -94,5 +94,4 @@ Near term:
 Later:
 
 - Add healthcare automation packages under `packages/`.
-- Choose and document a publishing workflow for `blog/`.
 - Expand shared skills as recurring workflows become clear.
