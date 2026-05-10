@@ -1,5 +1,5 @@
 ---
-name: tequio-design
+name: design
 description: Provides the Tequio Tech (Cyber-Aztec) design system guidelines. Use when implementing UI components, styling web applications, or making visual design decisions for Tequio Tech projects.
 ---
 
