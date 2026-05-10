@@ -33,7 +33,26 @@ line-length = 100
 target-version = "py314"
 
 [tool.ruff.lint]
-select = ["E", "F", "I", "UP", "B", "C90"]
+select = [
+    "E",       # pycodestyle errors (PEP 8 syntactic issues)
+    "F",       # pyflakes (undefined names, unused imports)
+    "I",       # isort (import ordering)
+    "UP",      # pyupgrade (modernize syntax for target Python version)
+    "B",       # flake8-bugbear (likely bugs and design problems)
+    "C90",     # mccabe cyclomatic complexity (threshold set below)
+    "PLR0912", # too-many-branches per function
+    "PLR0913", # too-many-arguments per function (threshold set below)
+    "PLR0915", # too-many-statements per function
+    "RET505",  # unnecessary `else` after `return`
+    "RET506",  # unnecessary `else` after `raise`
+    "RET507",  # unnecessary `else` after `continue`
+    "RET508",  # unnecessary `else` after `break`
+    "SIM102",  # collapsible nested `if` (combine into one condition)
+    "SIM114",  # `if` branches with identical bodies (combine with `or`)
+]
 
 [tool.ruff.lint.mccabe]
 max-complexity = 10
+
+[tool.ruff.lint.pylint]
+max-args = 5
