@@ -1,5 +1,7 @@
 # Blog Posts, Freeze, Drafts, RSS
 
+> **Note:** The contents of this file are just examples. Agents and users are not expected to enforce these examples. Only the rules or expectations set up in `AGENTS.md` should be enforced.
+
 ## Post structure
 
 Each post is a directory under `posts/`:

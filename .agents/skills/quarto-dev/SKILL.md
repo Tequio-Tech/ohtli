@@ -1,102 +1,33 @@
 ---
 name: quarto-dev
-description: Use when working on the Quarto blog under blog/. Covers project
-  initialization, navigation config, site preview, and when to consult BLOG.md
-  (posts/RSS/freeze) or THEMING.md (Sass/dark mode/Bootswatch).
+description: Use when working on the Quarto blog under blog/. Covers project initialization, site preview, and routing to configuration, theming, and authoring reference guides.
 ---
 
 # Quarto Dev
 
-Quarto blog lives under `blog/`. This skill covers initializing the project,
-configuring navigation, and running the local preview server.
+Skill covering Quarto project initialization, previewing, and configuration
+for the blog living under `blog/`.
 
-For post authoring, freeze, drafts, and RSS: read [BLOG.md](BLOG.md).
-For theming, dark mode, and Sass variables: read [THEMING.md](THEMING.md).
+## Project Operations
 
-## Project init
+Initialize the blog:
 
 ```sh
 quarto create project blog blog/
 ```
 
-Generated files:
-
-| File | Purpose |
-|------|---------|
-| `_quarto.yml` | Site config (title, navbar, theme, RSS metadata) |
-| `index.qmd` | Listing page (home) |
-| `about.qmd` | Author/about page |
-| `posts/` | Blog post directory |
-| `posts/_metadata.yml` | Shared post options (e.g. `freeze: true`) |
-| `styles.css` | Custom CSS |
-
-## Preview
+Run the local preview server (live-reloads on save):
 
 ```sh
 quarto preview blog/
 ```
 
-Live-reloads on save. Opens in browser automatically.
+## Reference Material
 
-## `_quarto.yml` skeleton
+> **Note:** The files in the `reference/` folder are provided strictly as examples. Neither agents nor the user are expected to enforce these examples. Only the rules or expectations set up in `AGENTS.md` should be enforced.
 
-```yaml
-project:
-  type: website
+To keep context small, detailed configuration and authoring guides are split into separate files. Read these on-demand:
 
-website:
-  title: "My Blog"
-  site-url: https://example.com
-  description: "A brief description for RSS feeds"
-  navbar:
-    right:
-      - icon: rss
-        href: index.xml
-  theme: cosmo   # or: theme: {light: flatly, dark: darkly}
-
-format:
-  html:
-    toc: true
-```
-
-`site-url` and `description` are required for RSS feed generation.
-
-## Navigation
-
-### Top navbar
-
-Key options under `website.navbar`:
-
-| Option | Notes |
-|--------|-------|
-| `background` | `primary`, `secondary`, `dark`, or hex |
-| `search: true` | Adds search box |
-| `left` / `right` | Lists of nav items (`href`, `text`, `icon`, `menu`) |
-| `pinned: true` | Always visible; default uses headroom.js (hides on scroll down) |
-| `tools` | Icon links (GitHub, Bluesky, RSS, etc.) using Bootstrap icon names |
-
-Nav item with dropdown:
-
-```yaml
-left:
-  - text: "More"
-    menu:
-      - talks.qmd
-      - about.qmd
-```
-
-### Side navigation
-
-```yaml
-website:
-  sidebar:
-    style: "docked"   # or "floating"
-    search: true
-    contents:
-      - text: "Introduction"
-        href: introduction.qmd
-      - section: "Basics"
-        contents:
-          - index.qmd
-          - basics.qmd
-```
+- **[CONFIG.md](reference/CONFIG.md)**: Site configuration (`_quarto.yml`), project structure, and navigation setups.
+- **[BLOG.md](reference/BLOG.md)**: Post authoring, freeze, drafts, and RSS.
+- **[THEMING.md](reference/THEMING.md)**: Theming, dark mode, and Sass variables.

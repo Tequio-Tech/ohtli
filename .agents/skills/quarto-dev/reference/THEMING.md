@@ -1,5 +1,7 @@
 # Theming
 
+> **Note:** The contents of this file are just examples. Agents and users are not expected to enforce these examples. Only the rules or expectations set up in `AGENTS.md` should be enforced.
+
 ## Bootswatch themes
 
 Set in `_quarto.yml`:
