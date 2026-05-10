@@ -35,3 +35,4 @@ what remains unverified.
 - Never modify `CLAUDE.md` directly (it is a symlink — see project rules).
 - Run `uv run ruff check .` and `uv run ruff format --check .` after changes
   that touch Python tooling, even if the skill itself is markdown-only.
+- follow .agents/skills/design/ when you generate artifacts (html, figures, etc)
