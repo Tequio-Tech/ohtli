@@ -9,8 +9,10 @@ documentation, and agent conventions, while runnable code will live under
 
 ## Documentation
 
-See [docs/overview.md](docs/overview.md) for the project's philosophy,
-monorepo structure, development setup, AI agent workflow, and roadmap.
+- [docs/overview.md](docs/overview.md) — project philosophy, monorepo
+  structure, development setup, AI agent workflow, and roadmap.
+- [docs/blog.md](docs/blog.md) — building and authoring the Tequio Tech
+  blog under `blog/`.
 
 ## Quick Start
 

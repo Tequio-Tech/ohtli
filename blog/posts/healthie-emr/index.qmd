@@ -1,0 +1,9 @@
+---
+title: "Why You Should Use Healthie for Your EMR Platform"
+description: "An opinionated look at building on Healthie."
+author: "TODO: author"
+date: "2026-04-15"
+---
+
+Healthie gives small clinical teams a modern API surface without forcing them
+into legacy EMR workflows. Here is how we evaluate it in practice.

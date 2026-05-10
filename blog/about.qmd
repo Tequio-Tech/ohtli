@@ -1,0 +1,12 @@
+---
+title: "About"
+about:
+  template: trestles
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: "#"
+---
+
+Tequio Tech is a healthcare technology studio focused on voice care and
+community-rooted clinical software.

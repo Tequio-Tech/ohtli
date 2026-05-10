@@ -1,0 +1,9 @@
+---
+title: "Manifesto"
+description: "What we believe and why we build."
+author: "TODO: author"
+date: "2026-05-10"
+---
+
+Healthcare technology should serve the people who carry the weight of care.
+This is our starting point and our standard.

@@ -1,0 +1,13 @@
+---
+title: "Blog"
+listing:
+  contents: posts
+  type: default
+  sort: "date desc"
+  fields: [date, title, author, description]
+  feed: true
+  categories: false
+  page-size: 100
+---
+
+Notes from the work.
